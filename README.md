@@ -9,7 +9,7 @@ Clone the repository:
 
 bash
 git clone link
-cd workspace-room-booking
+cd workspace-booking
 Create .env file (if applicable) with necessary environment variables like database URL, secret keys, etc.
 
 Build and start the Docker containers:

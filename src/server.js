@@ -24,5 +24,5 @@ app.get("/api/v1/bookings", (req, res) => bookingController.getAllBookings(req, 
 // Room routes
 app.get("/api/v1/rooms/available", (req, res) => roomController.getAvailableRooms(req, res, prisma));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
