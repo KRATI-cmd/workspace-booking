@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@prisma/client": "^6.17.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "uuid": "^13.0.0"
+    
+  },
+    "prisma": {
+    "seed": "node --experimental-modules prisma/seed.js"
+  },
+   "scripts": {
+    "start": "node src/server.js"
+  }
+}
