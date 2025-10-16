@@ -10,6 +10,8 @@ Clone the repository:
 bash
 git clone [link](https://github.com/KRATI-cmd/workspace-booking.git)
 cd workspace-booking
+docker-compose up --build
+
 Create .env file (if applicable) with necessary environment variables like database URL, secret keys, etc.
 
 Build and start the Docker containers:
